@@ -1,2 +1,2 @@
 runtime: python311
-entrypoint: gunicorn -b :SPORT main:app
+entrypoint: gunicorn -b :$PORT main:app
